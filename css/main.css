@@ -89,6 +89,7 @@ header {
     background-color: #FFCCBC;
     height: 15px; }
 
+/*Revisar los iconos del carrusel!!*/
 .ei-slider-large img {
   width: 100%; }
 
@@ -141,6 +142,12 @@ h2 span {
 .item {
   height: 500px; }
 
+.itemblog {
+  height: 350px !important; }
+
+@media (min-width: 300px) and (max-width: 650px) {
+  .item {
+    height: 200px !important; } }
 footer {
   background-color: #FFCCBC;
   color: #FFFFFF !important; }
