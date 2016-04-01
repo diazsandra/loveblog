@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(bootstrap/_bootstrap.css);
 /* COLORES */
 /*TAMANOS*/
@@ -13,7 +14,7 @@ h1, h2, h3, h4, h4, h6 {
 
 * {
   color: #999999;
-  font-family: 'Open-Sans-Condensed'; }
+  font-family: 'Open-Sans-Condensed', sans-serif; }
 
 /* Barra inicio*/
 .barraheader {
@@ -45,7 +46,10 @@ h1, h2, h3, h4, h4, h6 {
       color: #F4511E;
       width: 40%;
       font-family: fantasy !important;
-      font-weight: lighter !important; }
+      font-weight: lighter !important;
+      /*Revisar por qu├® no aparecen el color y fuente*/ }
+      .x #lineband .smalltitles p {
+        color: #000000 !important; }
 
 .list {
   padding-left: 0 !important; }
@@ -277,5 +281,82 @@ footer {
 
 .map {
   padding: 20px 10px; }
+
+.contact h3 {
+  color: #F4511E;
+  font-family: 'Open-Sans-Condensed', sans-serif !important; }
+.contact p {
+  color: #000000 !important;
+  font-family: 'Open-Sans-Condensed', sans-serif !important; }
+.contact ul {
+  padding-left: 0 !important; }
+.contact li {
+  color: #000000;
+  font-family: 'Open-Sans-Condensed', sans-serif !important; }
+
+.contact-form {
+  color: #FF8A65 !important;
+  font-family: 'Open-Sans-Condensed', sans-serif !important; }
+  .contact-form .btn-submit {
+    width: 100% !important;
+    background-color: #F4511E !important;
+    color: #FFFFFF !important;
+    font-family: 'Open-Sans-Condensed', sans-serif !important;
+    font-weight: bold; }
+
+.form-control {
+  border: 1px #F4511E solid !important;
+  color: #FFCCBC !important;
+  font-family: 'Open-Sans-Condensed', sans-serif !important;
+  font-weight: bold; }
+
+input[placeholder], [placeholder], *[placeholder] {
+  color: #FF8A65 !important; }
+
+.formwidth {
+  width: 55% !important; }
+
+.margin10 {
+  margin-left: 10px; }
+  .margin10 img {
+    width: 100%; }
+  .margin10 .col-xs-4, .margin10 .col-xs-8 {
+    font-family: 'Open-Sans-Condensed', sans-serif !important; }
+    .margin10 .col-xs-4 p, .margin10 .col-xs-8 p {
+      color: #000000;
+      font-family: 'Open-Sans-Condensed', sans-serif !important; }
+  .margin10 .quote {
+    width: 27px;
+    float: left; }
+  .margin10 blockquote {
+    color: #000000;
+    font-family: 'Open-Sans-Condensed', sans-serif !important; }
+  .margin10 a {
+    color: #999999; }
+  .margin10 p {
+    color: #000000; }
+
+.iconosblog {
+  margin-left: -105px;
+  display: inline; }
+
+#barrablog {
+  margin: 5% 0;
+  background-image: url(../images/post_border_bg.png);
+  background-repeat: repeat;
+  width: 100%;
+  height: 13px; }
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  background-color: #F4511E !important;
+  border-color: #F4511E !important;
+  margin: 5px;
+  border-radius: 0 !important; }
+
+.pagorange {
+  background-color: #F4511E !important;
+  border-color: #F4511E !important;
+  margin: 5px;
+  border-radius: 0 !important; }
 
 /*# sourceMappingURL=main.css.map */
